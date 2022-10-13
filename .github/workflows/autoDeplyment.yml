@@ -35,8 +35,11 @@ jobs:
           # Yarn command
           cmd: install
           
-      - name: build react app with yarn
-        run: yarn build
+      - name: GitHub Action for Yarn
+        uses: Borales/actions-yarn@v3
+        with:
+            # Yarn command
+          cmd: install
         
       - name: install surge
         run: npm install --global surge
