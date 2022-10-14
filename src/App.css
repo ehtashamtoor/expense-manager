@@ -94,7 +94,7 @@ hr {
     color: black;
     font-size: 15px;
     font-weight: bolder;
-    display: none;
+    /* display: none; */
 }
 .DelBtn{
     position: absolute;
